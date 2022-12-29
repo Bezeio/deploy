@@ -24,7 +24,7 @@
   }
   #job-info .container {
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 120%;
     justify-content: center;
   }
   #certificate .content {
@@ -32,7 +32,8 @@
     border-style: none;
   }
   #certificate .content .grid {
-    display: block;
+    display: grid;
+    grid-template-columns: 900%;
     border-style: none;
     padding-left: 0px;
     justify-content: center;
@@ -63,11 +64,15 @@
   }
   #project .content {
     display: grid;
-    grid-template-columns: 70%;
+    grid-template-columns: 95%;
+    justify-content: center;
   }
   #project .content .content-project{
+ 
+    justify-content: center;
     margin-top: 30px;
-
+    align-items: center;
+    margin-left: 0px;
   }
   #job-info .container .header {
     display: grid;
