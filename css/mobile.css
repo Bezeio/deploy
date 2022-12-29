@@ -1,4 +1,4 @@
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 414px) {
   * {
     margin: 0px;
     font-family: "Rubik", sans-serif;
@@ -33,7 +33,7 @@
   }
   #certificate .content .grid {
     display: grid;
-    grid-template-columns: 900%;
+    grid-template-columns: 90%;
     border-style: none;
     padding-left: 0px;
     justify-content: center;
@@ -64,7 +64,7 @@
   }
   #project .content {
     display: grid;
-    grid-template-columns: 95%;
+    grid-template-columns: 90%;
     justify-content: center;
   }
   #project .content .content-project{
@@ -85,5 +85,21 @@
     text-align: center;
     align-items: center;
    
+  }
+  #footer .container{
+    justify-content: center;
+    margin-left: 22px;
+    
+  }
+  #footer .container ul li{
+    visibility: hidden;
+  }
+  #footer .container ul i{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+   
+
   }
 }
