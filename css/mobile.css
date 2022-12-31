@@ -4,6 +4,24 @@
     font-family: "Rubik", sans-serif;
     box-sizing: border-box;
   }
+  #banner {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url("/images/banner.jpg");
+    position: relative;
+    height: 22vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  #banner h1,
+  #banner span {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
   #nav-bar {
     display: block;
     gap: 0px;
@@ -43,12 +61,12 @@
   #certificate .content .grid img {
     width: 100%;
     height: auto;
-    
+
     margin-left: 0px;
     justify-content: center;
     padding: 0px;
   }
-  #certificate .content #cert_mid img{
+  #certificate .content #cert_mid img {
     border-style: none;
     padding-left: 0px;
   }
@@ -67,8 +85,7 @@
     grid-template-columns: 90%;
     justify-content: center;
   }
-  #project .content .content-project{
- 
+  #project .content .content-project {
     justify-content: center;
     margin-top: 30px;
     align-items: center;
@@ -84,22 +101,18 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-   
   }
-  #footer .container{
+  #footer .container {
     justify-content: center;
     margin-left: 22px;
-    
   }
-  #footer .container ul li{
+  #footer .container ul li {
     visibility: hidden;
   }
-  #footer .container ul i{
+  #footer .container ul i {
     text-align: center;
     font-size: 50px;
     margin: 0px;
     padding: 0px;
-   
-
   }
 }

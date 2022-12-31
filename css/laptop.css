@@ -10,8 +10,8 @@
     ),
     url("/images/banner.jpg");
   position: relative;
-  height:  32vh;
-  background-size: 150%;
+  height:  50vh;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
 }
