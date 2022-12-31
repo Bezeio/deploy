@@ -4,7 +4,7 @@
         rgba(34, 34, 34, 0.6),
         rgba(34, 34, 34, 0.6)
       ),
-      url("/images/banner.jpg");
+      url("../images/banner.jpg");
     position: relative;
     height:  auto;
     background-size: 100%;
